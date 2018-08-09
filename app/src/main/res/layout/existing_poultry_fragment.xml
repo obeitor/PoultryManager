@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="15dp"
+        android:padding="10dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Farm Code:"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edit_box">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:padding="5dp"
+                android:background="@android:drawable/editbox_background_normal"
+                android:id="@+id/farmcodeEntry"
+                android:inputType="textFilter"
+                android:maxLength="8"
+                android:textAllCaps="true"
+                android:textSize="16dp"
+                android:textColorHint="@color/veryLightGrey"
+                android:hint="Enter Farm Code"
+                android:textColor="@color/grey"/>
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Password:"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edit_box">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:hint="Enter Password"
+                android:inputType="numberPassword"
+                android:background="@android:drawable/editbox_background_normal"
+                android:textColor="@color/grey"
+                android:maxLength="6"
+                android:padding="5dp"
+                android:textSize="16dp"
+                android:textColorHint="@color/veryLightGrey"
+                android:id="@+id/loginpassEntry"/>
+        </RelativeLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Enter Farm"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:id="@+id/signin"
+            android:textColor="@color/white"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/new_poultry"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:id="@+id/notexisting"
+            android:background="@drawable/fade_button"
+            android:text="Not Existing?"/>
+    </LinearLayout>
+</RelativeLayout>

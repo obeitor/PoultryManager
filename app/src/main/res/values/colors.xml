@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF8D1B46</color>
+    <color name="colorPrimaryDark">#FF78183C</color>
+    <color name="colorPrimaryLight">#FFF6C4D7</color>
+    <color name="colorAccent">@color/darkGreen</color>
+
+    <color name="notDue">@color/lightBlue</color>
+    <color name="tomorrow">@color/lightGreen</color>
+    <color name="isDue">@color/transparentGold</color>
+    <color name="inProgress">@color/darkGreen2</color>
+    <color name="complete">@color/fadedWhite</color>
+    <color name="pastDue">@color/lightred</color>
+
+    <!--color definitions -->
+    <color name="transparentGrey">#ffc2f6d7</color>
+    <color name="veryLightGrey">#ffc9dec7</color>
+    <color name="darkGreen">#F4075E21</color>
+    <color name="darkGreen2">#FF07C745</color>
+    <color name="fadedWhite">#FFEEEEEE</color>
+    <color name="red">#FFFF0C05</color>
+    <color name="transparentDarkGreen">#ca267b13</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="lightGreen">#FFC2FF8C</color>
+    <color name="blue">#FF1A1CFF</color>
+    <color name="transparentBlue">#C11533FF</color>
+    <color name="lightBlue">#FFA4DFF0</color>
+    <color name="lightPurple">#ff3c204a</color>
+    <color name="plainGreen">#ff36c816</color>
+    <color name="extLightPurple">#D0EA54FF</color>
+    <color name="transparentGold">#E2C7EE14</color>
+    <color name="orange">#FFF88C3E</color>
+    <color name="darkOrange">#FFE2813B</color>
+    <color name="darkGreenishGrey">#354d34</color>
+    <color name="turquoise">#FF53FFD9</color>
+    <color name="lightGreen2">#F238FFAA</color>
+    <color name="transparentDarkerGreen">#C803360E</color>
+    <color name="grey">#FFA1A1A1</color>
+    <color name="darkGreenishGrey2">#e93f5a3e</color>
+    <color name="greybtn">#ffd6d7d7</color>
+    <color name="extlightOrange">#d9fce6ce</color>
+    <color name="transparent">#83000000</color>
+    <color name="transparentColor">#0AE5E9E5</color>
+    <color name="lightred">#fc8481</color>
+    <color name="darkblue">#0b0c69</color>
+
+
+</resources>

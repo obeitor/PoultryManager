@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="15dp"
+        android:padding="10dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Email Address:"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edit_box">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textSize="15dp"
+                android:padding="5dp"
+                android:id="@+id/regemailEntry"
+                android:textColorHint="@color/veryLightGrey"
+                android:background="@android:drawable/editbox_background_normal"
+                android:hint="Enter Email Address"
+                android:inputType="textFilter"
+                android:maxLength="20"
+                android:textColor="@color/grey"/>
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Password:"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edit_box">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:hint="Enter Password"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:id="@+id/regpassEntry"
+                android:inputType="textPassword"
+                android:background="@android:drawable/editbox_background_normal"
+                android:textColor="@color/grey"
+                android:textColorHint="@color/veryLightGrey"/>
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Confirm Password:"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edit_box">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textSize="16dp"
+                android:hint="Confirm Password"
+                android:padding="5dp"
+                android:inputType="textPassword"
+                android:id="@+id/regconfirmpassEntry"
+                android:background="@android:drawable/editbox_background_normal"
+                android:textColor="@color/grey"
+                android:textColorHint="@color/veryLightGrey"/>
+        </RelativeLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Sign Up"
+            android:textSize="16dp"
+            android:id="@+id/signup"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="25sp"
+            android:layout_marginRight="25sp"
+            android:background="@drawable/new_poultry"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25sp"
+            android:textColor="@color/darkGreenishGrey2"
+            android:textSize="15sp"
+            android:padding="15sp"
+            android:layout_gravity="center"
+            android:id="@+id/alreadyreg"
+            android:text="Already Registered?"/>
+    </LinearLayout>
+</RelativeLayout>

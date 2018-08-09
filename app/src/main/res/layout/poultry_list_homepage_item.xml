@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:textSize="13sp"
+            android:textColor="@color/darkGreenishGrey2"
+            android:text="Layers"
+            android:id="@+id/poultry_name"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="37"
+            android:textStyle="bold|italic"
+            android:textSize="14dp"
+            android:id="@+id/amt_avail"
+            android:textColor="@color/darkGreen"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="17"
+            android:textStyle="bold|italic"
+            android:textSize="14dp"
+            android:id="@+id/amt_sold"
+            android:textColor="@color/blue"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="26"
+            android:textStyle="bold|italic"
+            android:textSize="14dp"
+            android:id="@+id/amt_dead"
+            android:textColor="@color/red"/>
+    </LinearLayout>
+
+</LinearLayout>

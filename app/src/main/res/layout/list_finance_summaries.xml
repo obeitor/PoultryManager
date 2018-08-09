@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5sp"
+    android:background="@drawable/green_btn"
+    android:id="@+id/finance_list_summary">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryLight"
+        android:background="@color/transparent"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:gravity="left"
+        android:id="@+id/finance_list_time"
+        android:padding="3sp"/>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="@color/white"
+    android:textSize="16sp"
+    android:textStyle="bold"
+    android:id="@+id/finance_list_name"
+    android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/fadedWhite"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:padding="2sp"
+        android:id="@+id/finance_list_amount"
+        android:gravity="right"/>
+</LinearLayout>

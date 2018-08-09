@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Poultry Manager</string>
+    <string name="new_poultry">New Poultry</string>
+    <string name="existing_poultry">Existing Poultry</string>
+    <string name="company_name">Designed By Softobt</string>
+    <string name="title_activity_poultry">Poultry Manager</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="home">Home</string>
+    <string name="finance">Finance</string>
+    <string name="report">Create Report</string>
+    <string name="medic">Medication</string>
+    <string name="medic_short">Medic</string>
+    <string name="eggs">Egg Info</string>
+    <string name="birds">Bird Info</string>
+    <string name="farminfo">Farm Info</string>
+
+    <string name="sel_date">Select Day</string>
+    <string name="sel_date_range">Select Range</string>
+    <string name="action_settings">Settings</string>
+    <string name="selec_flock">Select Flock</string>
+
+    <!--Eggs -->
+    <string name="today">Today</string>
+    <string name="yestday">Yesterday</string>
+    <string name="egg_balance">Egg Balance</string>
+    <string name="this_week">Sold This Week</string>
+    <string name="sell_egg">Sell Egg</string>
+
+    <!--Finance -->
+    <string name="select_type">Select Type</string>
+    <string-array name="payment_types">
+        <item>Add Investment</item>
+        <item>Purchase Fixed Asset</item>
+        <item>Pay for Service</item>
+        <item>Loan Repayment</item>
+    </string-array>
+
+    <string-array name="bird_types">
+        <item>Broiler</item>
+        <item>Layer</item>
+        <item>Cockerel</item>
+    </string-array>
+
+    <string-array name="age_types">
+        <item>Day</item>
+        <item>Week</item>
+    </string-array>
+</resources>

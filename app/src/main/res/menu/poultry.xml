@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="@string/report"
+        android:id="@+id/menu_report"
+        android:icon="@mipmap/ic_assessment_white_24dp"
+        app:showAsAction="ifRoom"
+        android:visible="false"/>
+    <item android:title="@string/farminfo"
+        android:id="@+id/menu_farm_info"
+        android:icon="@mipmap/ic_info_white_24dp"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/menu_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        android:icon="@mipmap/ic_settings_white_24dp"
+        app:showAsAction="ifRoom" />
+</menu>

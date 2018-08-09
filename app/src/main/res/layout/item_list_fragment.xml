@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+<android.support.v4.widget.SwipeRefreshLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/refreshList"
+    android:background="@color/colorPrimaryLight">
+    <ListView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:divider="@color/colorPrimaryLight"
+        android:dividerHeight="2sp"
+        android:id="@+id/list_of_item">
+
+</ListView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_to_list_of_item"
+        android:tint="@color/colorPrimaryLight"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20sp"/>
+</RelativeLayout>

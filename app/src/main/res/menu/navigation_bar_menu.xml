@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+>
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@mipmap/ic_home_black_24dp"
+            android:title="@string/home"
+            />
+        <item
+                android:id="@+id/nav_birds"
+                android:title="@string/birds"
+                android:icon="@drawable/chicken_logo"/>
+        <item
+                android:id="@+id/nav_egg"
+                android:icon="@drawable/egg_logo"
+                android:title="@string/eggs"/>
+        <item
+            android:id="@+id/nav_finance"
+            android:icon="@mipmap/ic_local_atm_black_24dp"
+            android:title="@string/finance" />
+        <item
+            android:id="@+id/nav_medic"
+            android:icon="@mipmap/ic_local_pharmacy_black_24dp"
+            android:title="@string/medic" />
+
+
+</menu>
